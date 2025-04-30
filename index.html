@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inscrição minicurso</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <div class="container">
+
+        <form id="inscricao">
+            <h2>Inscreva-se no Minicurso</h2>
+
+            <label for="nome">Nome Completo:</label>
+            <input type="text" name="nome" id="nome">
+
+            <label for="Idade">idade:</label>
+            <input type="number" name="idade" id="idade">
+
+            <p>Dias disponiveis</p>
+
+            <label><input type="checkbox" name="segunda" value="segunda" /> Segunda-Feira</label>
+            <label><input type="checkbox" name="quarta" value="quarta" /> Quarta-Feira</label>
+            <label><input type="checkbox" name="sexta" value="sexta" /> Sexta-Feira</label>
+
+            <button type="submit">Confirmar inscrição</button>
+        </form>
+
+       
+    </div>
+    <div id="mensagem" class="mensagem"></div>
+    <script src="/js/script.js"defer></script>
+</body>
+
+</html>

@@ -1,0 +1,88 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+h2 {
+  font-weight: 600;
+  margin: 15px auto;
+  font-size: 45px;
+}
+
+.container {
+  display: flex;
+  width: 100%;
+  max-width: 1024px;
+  height: auto;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  margin: 30px auto;
+  border-radius: 15px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+form {
+  display: block;
+  justify-content: center;
+  align-items: center;
+  margin: 5px 0;
+  padding: 5px;
+}
+
+label {
+  display: block;
+  margin: 5px auto;
+  border-radius: 15px;
+  font-size: 20px;
+  padding: 10px 0;
+}
+
+input[type="text"],
+input[type="number"] {
+  width: 100%;
+  padding: 15px 20px;
+  margin: 15px 0;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+}
+
+form p {
+  font-size: 15px;
+  margin: 5px auto;
+}
+
+button {
+  background-color: #0077cc;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 10px;
+  font-size: 15px;
+  margin: 10px auto;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0041cc;
+}
+
+.mensagem {
+display: block;
+  margin-top: 20px;
+  font-weight: bold;
+  display: block;
+  unicode-bidi: isolate;
+text-align: center;
+}
+
+.mensagem-sucesso {
+  color: green;
+}
+
+.mensagem-erro {
+  color: red;
+}
